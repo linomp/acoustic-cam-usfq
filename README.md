@@ -17,6 +17,10 @@ It is recommended to install these packages with VIPM, in this exact order:
 - [OpenG Libraries](https://www.vipm.io/package/openg.org_lib_openg_toolkit/)   
 - [LiveHDF by UPVI](https://www.vipm.io/package/lvhdf5/) ([documentation](http://www.upvi.net/main/index.php/products/lvhdf5))
 
+At this point, your installed package listing should contain at least all these:
+
+<img src="./readme_img/vipm_packages.PNG" width="60%">
+
 These ones are installed from outside VIPM:
 - [NI DAQmx](https://www.ni.com/en-us/support/downloads/drivers/download.ni-daqmx.html#348669) for microphone data acquisition
 - [VAS](https://www.ni.com/en-us/support/downloads/drivers/download.vision-acquisition-software.html#367318) for LabView to webcam interfacing
@@ -31,7 +35,7 @@ These ones are installed from outside VIPM:
 ## Verify Acoular installation
 After going through the [installation described here](http://www.acoular.org/install/index.html), you should be able to open the Anaconda prompt, input these commands and get the following results:
 
-![acoular_example](./acoular_test.PNG)
+![acoular_example](./readme_img/acoular_test.PNG)
 
 ## Testing the acoustic cam VI
 
