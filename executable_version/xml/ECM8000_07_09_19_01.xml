@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Calib name="ECM8000_04_09_19_01">
+	<pos Name="Point 1" factor="4.54400000"/>
+	<pos Name="Point 2" factor="4.09542348"/>
+	<pos Name="Point 3" factor="4.09542348"/>
+	<pos Name="Point 4" factor="4.09007826"/>
+	<pos Name="Point 5" factor="4.71800099"/>
+	<pos Name="Point 6" factor="3.43838336"/>
+	<pos Name="Point 7" factor="3.92268846"/>
+	<pos Name="Point 8" factor="3.73504309"/>
+	<pos Name="Point 9" factor="4.25085686"/>
+	<pos Name="Point 10" factor="4.72630015"/>
+	<pos Name="Point 11" factor="5.48739494"/>
+	<pos Name="Point 12" factor="3.79975357"/>
+	<pos Name="Point 13" factor="4.87917458"/>
+	<pos Name="Point 14" factor="4.63696225"/>
+	<pos Name="Point 15" factor="5.04870977"/>
+	<pos Name="Point 16" factor="3.97386738"/>
+</Calib>

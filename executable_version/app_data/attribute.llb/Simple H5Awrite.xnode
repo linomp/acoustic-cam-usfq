@@ -1,0 +1,54 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<XNode LVVersion="17008000">
+	<Property Name="NI.Lib.Description" Type="Str">Opens an existing attribute, creates a new one, or replaces an exisiting one and then updates the value.
+
+&lt;b&gt;HDF5 Ref:&lt;/b&gt; Object to which the attribute is attached
+&lt;b&gt;Name:&lt;/b&gt; Name of the attribute
+&lt;b&gt;Value:&lt;/b&gt; The value to write to the attribute
+&lt;b&gt;operation:&lt;/b&gt; Whether to create, replace or open the attribute, and whether or not to prompt before replacing.
+</Property>
+	<Property Name="NI.Lib.Icon" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!-H!!!*Q(C=T:7R&lt;BN(%)&lt;`)RQYL?%]A+.!;;[=&amp;Z!"&amp;9[!F*@31!*D6-?.!&amp;;U%2NEZ8L+N(I&amp;&amp;8K"?17^AEK#(@XNXJZ)S:9&amp;"!LA81ZZ_`_TM^`N(?_EWH[5HGD\50NF;FLX0:`;J(KU:PL4:D`6?D[M_XH@,`L.5!&lt;^P0D&gt;M\&amp;VUC!RN&gt;^)G\Y-VM,8L.ITF3H$IC]?;?PZ@+\2`['U7:WL0WI6T2N&amp;]7M#&gt;JGY(OJH-V:J`O(FZ?5BUR=&lt;$@0VQ#IE-JB]%AZV4^NO4\`:(M?8C(V:N`S\\FW`$H6;?%MN\=VI[^@RV(=(_`7`],`A;XWKL\X[8U/\Z`Q@]E``C[`&gt;^V@L\`GX-[&lt;[UZG0:\D,O?O@\H&lt;I.J`;2&lt;D*O^`@\&gt;[DH@]X`!=;FX0R9.,`X+3O`./W2"*"/'(VX\F.^%20^%20^%10^%!0^%!0^%"X&gt;%&gt;X&gt;%&gt;X&gt;%=X&gt;%-X&gt;%-X&gt;%/P(6XI1B=[OZ)MHCS5&amp;%U+*-GA+0F+?"+?B#@B9;C%*_&amp;*?"+?B)=5*4Q*4]+4]#1]4&amp;0#E`!E0!F0QE/J3J+VI]/4]&amp;"?!5`!%`!%0!%03SLA#1##R9,#12%Q&amp;*D"1=!4]!1](#LA#8A#HI!HY-&amp;7Q"0Q"$Q"4]$$F,IL57F+2Y?(-H*Y("[(R_&amp;R?#ANB]@B=8A=(I?(Z?4Q/$Q/B,/A5RQ%/:/="'@A]$A]`-DB=8A=(I@(Y='K6]DLTB3;UN(B-8A-(I0(Y$&amp;Y+#'$R_!R?!Q?AY?S-HA-(I0(Y$&amp;Y7%I'D]&amp;D]"AARK)M,[/9-&gt;&amp;)-A3$BU_^7[R?J;AE6HN\N9QXKNI.K(:DK&gt;UQ;D?#WA67OX"K&amp;U2NI^5W5'VDV%Z9\545!.576COIFKBLPK_)#_+=7"*H'F_FR]1"];R-@?4%[_NL86V&gt;[?,C1O@HZVIOFTI\/^-Q$$I_0N&lt;"Q9&amp;Y^^_]&lt;6`1R^:.T[5&amp;RS67@R-PV8X[;^'NHB-`(87L.U@&gt;Z%`R]7D7L44L`HH^^O8\Y?4@V8$S\O0Q^M_&amp;3OYO@`ET]?+I_`$\G_\$&lt;S@&gt;_^5LYN=&lt;@XQO@1`02MUU`N\MU7?7RBNF!!!!!!</Property>
+	<Property Name="NI.Lib.SourceVersion" Type="Int">385908736</Property>
+	<Property Name="NI.Lib.Version" Type="Str">1.1.0.81</Property>
+	<Property Name="NI.SortType" Type="Int">3</Property>
+	<Property Name="NI.XClass.Loc.Name" Type="Str">Simple H5Awrite</Property>
+	<Property Name="NI.XClass.Name" Type="Str">Simple H5Awrite</Property>
+	<Property Name="NI.XItem.DeclaredLeakProof" Type="Bool">false</Property>
+	<Property Name="NI.XItem.Express" Type="Bool">false</Property>
+	<Property Name="NI.XItem.Name" Type="Str">Simple H5Awrite</Property>
+	<Property Name="NI.XItem.SupportsFatalErrorOut" Type="Bool">false</Property>
+	<Property Name="XNode_Manager" Type="Str">1.5</Property>
+	<Item Name="Simple H5Awrite_State.ctl" Type="Ability VI" URL="/&lt;vilib&gt;/UPVI/lvhdf5/attribute.llb/Simple H5Awrite/Simple H5Awrite_State.ctl">
+		<Property Name="NI.XItem.Name" Type="Str">State</Property>
+	</Item>
+	<Item Name="Simple H5Awrite_AdaptToInputs.Element.vi" Type="Ability VI" URL="/&lt;vilib&gt;/UPVI/lvhdf5/attribute.llb/Simple H5Awrite/Simple H5Awrite_AdaptToInputs.Element.vi">
+		<Property Name="NI.XItem.Name" Type="Str">AdaptToInputs</Property>
+	</Item>
+	<Item Name="Simple H5Awrite_GenerateCode.vi" Type="Ability VI" URL="/&lt;vilib&gt;/UPVI/lvhdf5/attribute.llb/Simple H5Awrite/Simple H5Awrite_GenerateCode.vi">
+		<Property Name="NI.XItem.Name" Type="Str">GenerateCode</Property>
+	</Item>
+	<Item Name="Simple H5Awrite_GetDisplayName2.vi" Type="Ability VI" URL="/&lt;vilib&gt;/UPVI/lvhdf5/attribute.llb/Simple H5Awrite/Simple H5Awrite_GetDisplayName2.vi">
+		<Property Name="NI.XItem.Name" Type="Str">GetDisplayName2</Property>
+	</Item>
+	<Item Name="Simple H5Awrite_GetErrors3.vi" Type="Ability VI" URL="/&lt;vilib&gt;/UPVI/lvhdf5/attribute.llb/Simple H5Awrite/Simple H5Awrite_GetErrors3.vi">
+		<Property Name="NI.XItem.Name" Type="Str">GetErrors3</Property>
+	</Item>
+	<Item Name="Simple H5Awrite_GetTerms3.vi" Type="Ability VI" URL="/&lt;vilib&gt;/UPVI/lvhdf5/attribute.llb/Simple H5Awrite/Simple H5Awrite_GetTerms3.vi">
+		<Property Name="NI.XItem.Name" Type="Str">GetTerms3</Property>
+	</Item>
+	<Item Name="Simple H5Awrite_Help.vi" Type="Ability VI" URL="/&lt;vilib&gt;/UPVI/lvhdf5/attribute.llb/Simple H5Awrite/Simple H5Awrite_Help.vi">
+		<Property Name="NI.XItem.Name" Type="Str">Help</Property>
+	</Item>
+	<Item Name="Simple H5Awrite_Image.vi" Type="Ability VI" URL="/&lt;vilib&gt;/UPVI/lvhdf5/attribute.llb/Simple H5Awrite/Simple H5Awrite_Image.vi">
+		<Property Name="NI.XItem.Name" Type="Str">Image</Property>
+	</Item>
+	<Item Name="Simple H5Awrite_Initialize.vi" Type="Ability VI" URL="/&lt;vilib&gt;/UPVI/lvhdf5/attribute.llb/Simple H5Awrite/Simple H5Awrite_Initialize.vi">
+		<Property Name="NI.XItem.Name" Type="Str">Initialize</Property>
+	</Item>
+	<Item Name="Simple H5Awrite_ModifyCode.vi" Type="Ability VI" URL="/&lt;vilib&gt;/UPVI/lvhdf5/attribute.llb/Simple H5Awrite/Simple H5Awrite_ModifyCode.vi">
+		<Property Name="NI.XItem.Name" Type="Str">ModifyCode</Property>
+	</Item>
+	<Item Name="Simple H5Awrite_UpdateStateWithRef.vi" Type="Ability VI" URL="/&lt;vilib&gt;/UPVI/lvhdf5/attribute.llb/Simple H5Awrite/Simple H5Awrite_UpdateStateWithRef.vi">
+		<Property Name="NI.XItem.Name" Type="Str">UpdateStateWithRef</Property>
+	</Item>
+</XNode>

@@ -1,0 +1,118 @@
+== Version 1.1.1.86 (2015-04-19) ==
+
+Bugfix release
+
+- Fixed improper link to sub node in LVH5 Write Attribute and LVH5 Read Attribute
+- Updated dynamic icons for the same VIs
+- Fixed crash that occurred when attempting to write empty arrays to datasets or attributes
+
+== Version 1.1.0.85 (2015-2-23) ==
+
+This is the first release of the 1.1 series. There are three main focuses of the 1.1 toolkit over the 1.0 toolkit.
+
+- Win64 support
+- Improved adaptive node behavior to support: file paths or HDF5 refs, Waveform datatypes,
+  and clusters of attributes.
+- Addition of the Link and Object functions
+  
+Other changes since 1.0
+
+== 1.1.0.84 ==
+
+- Fixed Live HDF5 (system) package installation error
+
+== 1.1.0.83 ==
+
+- File, Dataset and Attribute operations now typedefed (LVH5? Operation.ctl)
+- Dataset and Attribute operation modes "replace or create" and "replace or create with confirmation"
+  renamed to "create or replace" and "create or replace with confirmation")
+- Improved error handling in h5helper.dll. This should solve some problems which resulted in Live HDF5 raising
+  apparently null errors.
+- Ensured that all xnodes always generate non-broken code, even if broken wires are connected to them.
+  This fixes an insidious behavior in which Ctrl+B (Remove broken wires) could irreparably break placed
+  nodes. All xnode AdaptToInputs abilities have undergone major changes to fix this.
+- Addition of H5Diterate function
+  
+== 1.1.0.73 ==
+
+- Addition of Link and completion of Object functions
+- Implementation of H5Diterate function
+- Documentation and palette support for the above
+- Modification of icons on VIs and palettes to remove HDF logo
+- Fix of uninstallable lvhdf5 (System) subpackage
+
+== 1.1.0.68 ==
+
+- Behaviors based on wired/unwired state of terms corrected. Certain xnodes were not behaving properly prior to this fix.
+- Fixed behavior of AttrPolys. Behavior broken in 1.1 Beta 1
+- Fixed DWarn in xstuffprivate.cpp caused by inclusion of LVH5D Operation.ctl.
+- Fixed major heinous crash in discovered in HDF5 Write Cluster Array Data.vi example where in typedefed types written to HDF5 cause crashes. (The typedefs in question in the example were the attributes associated with the Physical Quantity datatypes.)
+- DWarn in TDOther.cpp fixed
+
+== Version 1.0.5.54 (2014-11-20) ==
+
+- Toolkit renamed "Live HDF5"
+- Modified vi package to exclude installation Windows XP (the HDF5 library version 1.8.13 does not work on XP) and to require 32-bit versions of LabVIEW
+- Changed top level palette icon
+- Added Select HDF5 Dialog.vi, a dialog which displays an HDF5 tree and prompts the user to select an object
+- Added H5Oget_info.vi and H5Oget_info_by_name.vi
+- Enhanced Populate HDF5 Tree to use item icons
+- Fixed bug in List Group Objects (recursive).vi which prevented proper recursion
+
+== Version 1.0.4.52 ==
+
+LVHDF5 is now certified as Compatible with LabVIEW and available on the LabVIEW Tools Network.
+
+- Fixed crash/hang in LabVIEW 2014 caused by improper call in AdaptToInputs
+- Added MSVCRT runtime engine dependency of hdf5.dll into distribution
+- Added H5Dget_access_plist.vi
+- Modified H5Tarray_create.vi to use U64s
+- Fixed H5Tget_array_dims.vi to use H5Tget_array_dims2 and U64s
+- Added H5T_CSET_UTF8 to character set datatype
+- Added palette display names (window titles) to all VIs
+- Renamed LVH5Pget_fill_value and LVH5Pset_fill_value to just H5Pget_fill_value
+- Renamed H5P(g/s)et_gc_reference.vi to H5P(g/s)et_gc_references.vi
+- Added H5Pget_buffer
+- Updated H5P VIs to use U64s where appropriate
+- Modified error handling to always generate error 402760 and to use Recover Error Stack.vi. See documentation.
+- Fixed error in OpenCreateReplace File where it prompted to Open or Replace on non-existent files.
+- Modified H5Tget_class_name to use H5free_memory
+- Updated documentation
+
+== Version 1.0.3.42 ==
+
+- New icons!
+- Updated xnodes to add UpdateStateWithRef method to properly update xnodes as xnode version is incremented.
+- Disabled automatic error handling in H5Fclose to prevent non-fatal errors from being asserted.
+- Modified examples to use proper h5 file extension filtering on browse dialogs.
+- Fixed Append Element(s) to Dataset.xnode which was broken in the prior release.
+
+== Version 1.0.2.40 ==
+
+This release is primarily for documentation, which has been revamped with an HtmlHelp file.
+
+Additionally:
+
+- Moved examples and palettes to be compliant with LabVIEW Tools Network
+- H5Gcreate modified to use H5Gcreate2 rather than H5Gcreate1
+- Minor parameter name changes in some VIs
+- Minor correction of behavior to Populate HDF5 Tree.vi
+
+== Version 1.0.1.32 ==
+
+This is a maintanence release coming hot on the heals of the initial release.
+
+- Moved palette to menu\Programming to be compliant with LabVIEW Tools Network
+- Fixed DWarn errors on exit of LabVIEW
+- Fixed problem where types were not propegated correctly on xnodes placed via replacement of an existing node.
+- Fixed "invisible broken code" error
+
+== Version 1.0.0.31 ==
+
+Initial public release of the version 1.0 series
+
+As compared to the 0.9 series, this version of the LVHDF5 library contains a nearly complete rewrite of the internal code along with adaptive, polymorphic nodes (xnodes) for the main data VIs. It is considerably faster and more memory efficient as it no longer flattens everything to strings during the read/write process.
+
+The VIs should seem familiar to users of the 0.9 series, but direct replacements for all of the VIs may not be available. An existing VI which uses this library will require a small amount of work. Notably, most of the main VIs, such as "Simple H5Dread," etc. have been replaced with adaptive nodes. These nodes have a ".xnode" (e.g. Simple H5Dread.xnode" extension which the LabVIEW file dialog does not show by default when browsing for VIs. Altenatively, you may use the variant version of the node, e.g. "Simple H5read (Variant).vi."
+
+Please see README.txt in the main library folder (<LabVIEW dir>\vi.lib\UPVI\lvhdf5) for further details and known issues.

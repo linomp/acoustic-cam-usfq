@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MicArray name="16_mics_geom_old">
+	<pos Name="Point 1" x="-0.073" y="0.281" z="0.085"/>
+	<pos Name="Point 2" x="-0.027" y="0.339" z="0.085"/>
+	<pos Name="Point 3" x="-0.003" y="0.434" z="0.085"/>
+	<pos Name="Point 4" x="-0.004" y="0.501" z="0.085"/>
+	<pos Name="Point 5" x="-0.123" y="0.331" z="0.095"/>
+	<pos Name="Point 6" x="-0.180" y="0.377" z="0.095"/>
+	<pos Name="Point 7" x="-0.275" y="0.401" z="0.095"/>
+	<pos Name="Point 8" x="-0.343" y="0.400" z="0.095"/>
+	<pos Name="Point 9" x="-0.173" y="0.281" z="0.085"/>
+	<pos Name="Point 10" x="-0.219" y="0.224" z="0.085"/>
+	<pos Name="Point 11" x="-0.242" y="0.129" z="0.085"/>
+	<pos Name="Point 12" x="-0.242" y="0.061" z="0.085"/>
+	<pos Name="Point 13" x="-0.123" y="0.231" z="0.095"/>
+	<pos Name="Point 14" x="-0.066" y="0.185" z="0.095"/>
+	<pos Name="Point 15" x="0.029" y="0.162" z="0.095"/>
+	<pos Name="Point 16" x="0.097" y="0.163" z="0.095"/>
+
+</MicArray>									

@@ -1,0 +1,68 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<XNode LVVersion="17008000">
+	<Property Name="NI.Lib.Description" Type="Str">This node performs a low-level HDF5 dataset read. It provides the functionality of H5Dread with some added LabVIEW features. Its behavior changes slightly depending on which terminals are wired and how each terminal is wired.
+
+&lt;b&gt;Dataset Ref:&lt;/b&gt; The dataset to read.
+&lt;b&gt;Type Ref:&lt;/b&gt; Datatype describing the memory type in which data is returned. See details below.
+&lt;b&gt;Memory Space:&lt;/b&gt; The dataspace describing which in-memory elements to overwrite. See details below
+&lt;b&gt;File Space:&lt;/b&gt; The dataspace describing which elements to read.
+&lt;b&gt;Xfer Property List:&lt;/b&gt; An HDF5 dataset xfer property list
+&lt;b&gt;Data:&lt;/b&gt; See details below.
+
+&lt;b&gt;Details&lt;/b&gt;
+If Type Ref is default, Type Ref will be set to the type that best matches the type wired at Data. If Data is not wired, the result will be returned as a variant containing an array of the type which best matches the type of the dataset type.
+
+If Data is wired with an empty array, the empty array will be resized to match the entire dataset prior to the read.  If Data is wired with a non-empty array, the elements of the array selected by Memory Space will be overwritten. (If Memory Space is default, all elements are selected).
+
+Take special care wiring Memory Space and Data as buffer overruns could occur.
+
+As with H5Dread, the number of elements selected inf File Space mush match the number of elements selected in Memory Space.
+
+
+
+</Property>
+	<Property Name="NI.Lib.Icon" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!,3!!!*Q(C=Z:5`&lt;N2!&amp;)&gt;`8I&amp;#G&gt;QA#A3"8,YL,!?A-")&amp;\?-)E&lt;:;&lt;:J=Y2W"8#&amp;&amp;[*$1+WEI)O5%+;XNFG`'MR%%.GF!1D$DZ`8]XJ`Z0*[VJ&gt;K?3)_U?;A^X4;.@=^2GV3P2N,XGHN0YW)9_U8@,`PV5!&lt;^IPC\A[FVUC#2WK_F&gt;6]'I`"L6NUTF:2BW2=@9?.CM&gt;$E@VT;L/&lt;K4;WC2;-I`BK!OS3/1TX75Z8G0\[]P$QG@&lt;H7M"A(:C'1Q&gt;:0Q,&amp;WN-XGS\XN0`'8J@B"VRX`&gt;^)^`H*I+P?L_GJRWJ'`0?`SV_+4X@%`&gt;(``M0_"RF)N(QT[QUXKSD^NAS57G'.7`ZW&lt;2%`U2%`U2%`U1!`U1!`U1!^U2X&gt;U2X&gt;U2X&gt;U1T&gt;U1T&gt;U1T@UWN'&amp;,H3BMSL*Z-F%3&gt;'E1")-CJ*4QJ0Q*$Q*$U-F0!F0QJ0Q*$S%+/&amp;*?"+?B#@B)5U*4]+4]#1]#1_F+EH7DAZ0QE.Z"4Q"4]!4]!1]4+G!*Q!)*AM+"U8!5/!-,A+?A#@AY6)"4]!4]!1]!1^O"4Q"4]!4]!1]J.26C5J4/DI]F*($Y`!Y0![0QU.J/4Q/D]0D]$A]4#?(R_&amp;R)*Q*H?)AS%FS!JS"Q_0Q]#/(R_&amp;R?"Q?BQ&gt;8@5*?6[&lt;1F)Y/D]&amp;D]"A]"I`"1QE:0!;0Q70Q'$S5F=&amp;D]"A]"I`"QV1S?!Q?A]=!-3:F?BH&amp;D%1DS"!-(I[[7[Q_J;AE6HP\N%Q&lt;67U$KGUMN1WDNB(5(L$;AV.\)'I,L&lt;;!;AOD&gt;M.K.[)'K$;R7E'V1.VQPM)OM(0M$$P2^#G&gt;9U@915H^T9%X.T?[OLL3R=7&amp;TM`0&gt;8:WJJ/4%QX$I0F]LK/D)`(NP`X;(N+HVGX@3UOO&gt;^HKX87X?LX@H8\&gt;\V;PGLW^`CHO^'08L1[R:Z_[U]]PO^7,$^XK_@O&gt;&gt;9N.\[7`Y&gt;WIG;&lt;@WT8["H(1-F1!!!!!</Property>
+	<Property Name="NI.Lib.SourceVersion" Type="Int">385908736</Property>
+	<Property Name="NI.Lib.Version" Type="Str">1.1.0.81</Property>
+	<Property Name="NI.SortType" Type="Int">3</Property>
+	<Property Name="NI.XClass.Loc.Name" Type="Str">H5Dread</Property>
+	<Property Name="NI.XClass.Name" Type="Str">H5Dread</Property>
+	<Property Name="NI.XItem.DeclaredLeakProof" Type="Bool">false</Property>
+	<Property Name="NI.XItem.Express" Type="Bool">false</Property>
+	<Property Name="NI.XItem.Name" Type="Str">H5Dread</Property>
+	<Property Name="NI.XItem.SupportsFatalErrorOut" Type="Bool">false</Property>
+	<Property Name="XNode_Manager" Type="Str">1.5</Property>
+	<Item Name="H5Dread_State.ctl" Type="Ability VI" URL="/&lt;vilib&gt;/UPVI/lvhdf5/dataset.llb/H5Dread/H5Dread_State.ctl">
+		<Property Name="NI.XItem.Name" Type="Str">State</Property>
+	</Item>
+	<Item Name="H5Dread_AdaptToInputs.Dataset.vi" Type="Ability VI" URL="/&lt;vilib&gt;/UPVI/lvhdf5/dataset.llb/H5Dread/H5Dread_AdaptToInputs.Dataset.vi">
+		<Property Name="NI.XItem.Name" Type="Str">AdaptToInputs</Property>
+	</Item>
+	<Item Name="H5Dread_GenerateCode.vi" Type="Ability VI" URL="/&lt;vilib&gt;/UPVI/lvhdf5/dataset.llb/H5Dread/H5Dread_GenerateCode.vi">
+		<Property Name="NI.XItem.Name" Type="Str">GenerateCode</Property>
+	</Item>
+	<Item Name="H5Dread_GetDisplayName2.vi" Type="Ability VI" URL="/&lt;vilib&gt;/UPVI/lvhdf5/dataset.llb/H5Dread/H5Dread_GetDisplayName2.vi">
+		<Property Name="NI.XItem.Name" Type="Str">GetDisplayName2</Property>
+	</Item>
+	<Item Name="H5Dread_GetErrors3.vi" Type="Ability VI" URL="/&lt;vilib&gt;/UPVI/lvhdf5/dataset.llb/H5Dread/H5Dread_GetErrors3.vi">
+		<Property Name="NI.XItem.Name" Type="Str">GetErrors3</Property>
+	</Item>
+	<Item Name="H5Dread_GetTerms3.vi" Type="Ability VI" URL="/&lt;vilib&gt;/UPVI/lvhdf5/dataset.llb/H5Dread/H5Dread_GetTerms3.vi">
+		<Property Name="NI.XItem.Name" Type="Str">GetTerms3</Property>
+	</Item>
+	<Item Name="H5Dread_Help.vi" Type="Ability VI" URL="/&lt;vilib&gt;/UPVI/lvhdf5/dataset.llb/H5Dread/H5Dread_Help.vi">
+		<Property Name="NI.XItem.Name" Type="Str">Help</Property>
+	</Item>
+	<Item Name="H5Dread_Image.vi" Type="Ability VI" URL="/&lt;vilib&gt;/UPVI/lvhdf5/dataset.llb/H5Dread/H5Dread_Image.vi">
+		<Property Name="NI.XItem.Name" Type="Str">Image</Property>
+	</Item>
+	<Item Name="H5Dread_Initialize.vi" Type="Ability VI" URL="/&lt;vilib&gt;/UPVI/lvhdf5/dataset.llb/H5Dread/H5Dread_Initialize.vi">
+		<Property Name="NI.XItem.Name" Type="Str">Initialize</Property>
+	</Item>
+	<Item Name="H5Dread_ModifyCode.vi" Type="Ability VI" URL="/&lt;vilib&gt;/UPVI/lvhdf5/dataset.llb/H5Dread/H5Dread_ModifyCode.vi">
+		<Property Name="NI.XItem.Name" Type="Str">ModifyCode</Property>
+	</Item>
+	<Item Name="H5Dread_UpdateStateWithRef.vi" Type="Ability VI" URL="/&lt;vilib&gt;/UPVI/lvhdf5/dataset.llb/H5Dread/H5Dread_UpdateStateWithRef.vi">
+		<Property Name="NI.XItem.Name" Type="Str">UpdateStateWithRef</Property>
+	</Item>
+</XNode>

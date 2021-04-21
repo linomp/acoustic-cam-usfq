@@ -1,0 +1,47 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<XNode LVVersion="17008000">
+	<Property Name="NI.Lib.Icon" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!,0!!!*Q(C=Z:7`&lt;B."%)&gt;`:Y'A*'^A';7[=F\"LX!]QLS#*6=GCI2&amp;3T5N#B1O1_EC?9!JU`I68&amp;LOT(&gt;\[Q3#AI5%%I,&gt;G`PTG^G:\`&lt;W\K438EL0&gt;$D68B_&lt;&gt;GX,6JJ5TH9-@V(&gt;,\3&lt;&gt;\NWXL;,&gt;N`V&amp;_W]^T&gt;H1WOE4G*IOZ@W&lt;8_R%X[.CHOE@ECX;(M@9&lt;PZ@+\"`\RPIT*7&lt;UI7T3N&amp;\S]"O0O"O[ZM_S&amp;,^:`@X.S=-XSR6T@@&gt;61BE)ODHY"T0&gt;%/B\O@NP`%LY?^4PC`DTDG6_FX+E=^R$TWXRW0?M1X+!`_R`T@_'OB8\G`@^B`IL('&amp;S?$`H#4GPZ./W#*"?;9F&lt;@TE/C*HOC*HOC*(OC"(OC"(OC"\OC/\OC/\OC/&lt;OC'&lt;OC'&lt;OC'8DK[U)5O&gt;'9F+:Y53J)G#:*A5*4M%J[%*_&amp;*?,B5QJ0Q*$Q*4]*$C"+?B#@B38A3(I9JY5FY%J[%*_%B63(*UN(B38B)LY!HY!FY!J[!BZ)+?!+!I&amp;C1/%A#BA*H=",Q"$Q"$[=+?!+?A#@A#8BQ+_!*?!+?A#@A95C:F3AU@5?(BT2S?"Q?B]@B=8B),9@(Y8&amp;Y("[(BX*S?"Q?"])J[#1(1=YA*]#Z=(A=(AZS?"Q?B]@B=8BQF3@E:7:[GL[DQW0Q'$Q'D]&amp;D]*"#"I`"9`!90!90;78Q'$Q'D]&amp;D]&amp;"+"I`"9`!9)%:2SMN):AQUAAT"Y'%LK]8+5YJ#9K888]OQ5&amp;58I/L#5FUQKAN"^1'L0DD6"[)[U;I4K$IRKD?M?C/KA+K&amp;62/K"GL,@I/NM27WR'9;@K64&lt;)+&gt;^5.`=_"WO^6GM^&amp;[P&gt;:KN&gt;*SO&gt;2M.F08&gt;:J/JZJ-*O,@@`_X(&gt;/(VBS`3QP/H\,,^7VT_8(=P,M?.Z@PKXWZ`4(OV1)&lt;.R?@LZO,KU`.W_E6^O(*P,U.X[7`Y&gt;OIE9&lt;D`2R^"4PK/01!!!!!</Property>
+	<Property Name="NI.Lib.SourceVersion" Type="Int">385908736</Property>
+	<Property Name="NI.Lib.Version" Type="Str">1.1.0.83</Property>
+	<Property Name="NI.SortType" Type="Int">3</Property>
+	<Property Name="NI.XClass.Loc.Name" Type="Str">H5Diterate</Property>
+	<Property Name="NI.XClass.Name" Type="Str">H5Diterate</Property>
+	<Property Name="NI.XItem.DeclaredLeakProof" Type="Bool">false</Property>
+	<Property Name="NI.XItem.Express" Type="Bool">false</Property>
+	<Property Name="NI.XItem.Name" Type="Str">H5Diterate</Property>
+	<Property Name="NI.XItem.SupportsFatalErrorOut" Type="Bool">false</Property>
+	<Property Name="XNode_Manager" Type="Str">1.5</Property>
+	<Item Name="H5Diterate_State.ctl" Type="Ability VI" URL="/&lt;vilib&gt;/UPVI/lvhdf5/dataset.llb/H5Diterate/H5Diterate_State.ctl">
+		<Property Name="NI.XItem.Name" Type="Str">State</Property>
+	</Item>
+	<Item Name="H5Diterate_AdaptToInputs.Dataset.vi" Type="Ability VI" URL="/&lt;vilib&gt;/UPVI/lvhdf5/dataset.llb/H5Diterate/H5Diterate_AdaptToInputs.Dataset.vi">
+		<Property Name="NI.XItem.Name" Type="Str">AdaptToInputs</Property>
+	</Item>
+	<Item Name="H5Diterate_GenerateCode.vi" Type="Ability VI" URL="/&lt;vilib&gt;/UPVI/lvhdf5/dataset.llb/H5Diterate/H5Diterate_GenerateCode.vi">
+		<Property Name="NI.XItem.Name" Type="Str">GenerateCode</Property>
+	</Item>
+	<Item Name="H5Diterate_GetDisplayName2.vi" Type="Ability VI" URL="/&lt;vilib&gt;/UPVI/lvhdf5/dataset.llb/H5Diterate/H5Diterate_GetDisplayName2.vi">
+		<Property Name="NI.XItem.Name" Type="Str">GetDisplayName2</Property>
+	</Item>
+	<Item Name="H5Diterate_GetErrors3.vi" Type="Ability VI" URL="/&lt;vilib&gt;/UPVI/lvhdf5/dataset.llb/H5Diterate/H5Diterate_GetErrors3.vi">
+		<Property Name="NI.XItem.Name" Type="Str">GetErrors3</Property>
+	</Item>
+	<Item Name="H5Diterate_GetTerms3.vi" Type="Ability VI" URL="/&lt;vilib&gt;/UPVI/lvhdf5/dataset.llb/H5Diterate/H5Diterate_GetTerms3.vi">
+		<Property Name="NI.XItem.Name" Type="Str">GetTerms3</Property>
+	</Item>
+	<Item Name="H5Diterate_Help.vi" Type="Ability VI" URL="/&lt;vilib&gt;/UPVI/lvhdf5/dataset.llb/H5Diterate/H5Diterate_Help.vi">
+		<Property Name="NI.XItem.Name" Type="Str">Help</Property>
+	</Item>
+	<Item Name="H5Diterate_Image.vi" Type="Ability VI" URL="/&lt;vilib&gt;/UPVI/lvhdf5/dataset.llb/H5Diterate/H5Diterate_Image.vi">
+		<Property Name="NI.XItem.Name" Type="Str">Image</Property>
+	</Item>
+	<Item Name="H5Diterate_Initialize.vi" Type="Ability VI" URL="/&lt;vilib&gt;/UPVI/lvhdf5/dataset.llb/H5Diterate/H5Diterate_Initialize.vi">
+		<Property Name="NI.XItem.Name" Type="Str">Initialize</Property>
+	</Item>
+	<Item Name="H5Diterate_ModifyCode.vi" Type="Ability VI" URL="/&lt;vilib&gt;/UPVI/lvhdf5/dataset.llb/H5Diterate/H5Diterate_ModifyCode.vi">
+		<Property Name="NI.XItem.Name" Type="Str">ModifyCode</Property>
+	</Item>
+	<Item Name="H5Diterate_UpdateStateWithRef.vi" Type="Ability VI" URL="/&lt;vilib&gt;/UPVI/lvhdf5/dataset.llb/H5Diterate/H5Diterate_UpdateStateWithRef.vi">
+		<Property Name="NI.XItem.Name" Type="Str">UpdateStateWithRef</Property>
+	</Item>
+</XNode>
