@@ -55,7 +55,7 @@ To test your environment, an example measurement is provided. This includes an i
   
   - The Python server should be started in the background, give it some time. When the VI is ready to perform an analysis, it looks like this:
   
-    <img src="./readme_img/ready.PNG" width="80%"> 
+    <img src="./readme_img/ready.PNG" width="90%"> 
 
   - By default, the VI already searches for the microphone geometry file `16_mics_geom.xml` in the `development_version/xml` folder. If you ever need to include another microphone geometry file, that is the place to add it.
 
@@ -67,15 +67,15 @@ To test your environment, an example measurement is provided. This includes an i
     
     - Inspecting it with the `Inspect Signal` function:
   
-      <img src="./readme_img/inspect.PNG" width="80%">
+      <img src="./readme_img/inspect.PNG" width="90%">
 
     - Click on `Run Analysis` and you should get this message:
   
-      <img src="./readme_img/success.PNG" width="80%">
+      <img src="./readme_img/success.PNG" width="90%">
 
       And the following plot:
 
-      <img src="./readme_img/example_plot.PNG" width="60%">
+      <img src="./readme_img/example_plot.PNG" width="70%">
 
 
 ## Performing New Measurements
@@ -84,7 +84,7 @@ To test your environment, an example measurement is provided. This includes an i
 
 - In the `Measurements` tab, you can use the `Preview Signals` button to check the status of the microphones:
 
-  <img src="./readme_img/preview_signals.PNG" width="60%">
+  <img src="./readme_img/preview_signals.PNG" width="80%">
 
 - Select the camera device.
 - Focus the camera to the desired object/scenario to analyze.
@@ -96,7 +96,7 @@ To test your environment, an example measurement is provided. This includes an i
 - Click record and wait.
 - After recording, the GUI should look like this:
   
-  <img src="./readme_img/measure.PNG" width="70%"> 
+  <img src="./readme_img/measure.PNG" width="100%"> 
 
 - Switch to the `Processing` tab. It will already be pointing to the newly created data file. There you can `Inspect` the signal or `Run   Analysis` immediately, like in the previous section.
 
@@ -109,7 +109,7 @@ To test your environment, an example measurement is provided. This includes an i
   
   Locate this section of the `BeamformerGUI_GivenFreqs.vi` block diagram and open the `DAQ Assistant` to configure your hardware:
 
-  <img src="./readme_img/daq.PNG" width="60%"> 
+  <img src="./readme_img/daq.PNG" width="70%"> 
 
 - The calibration file location is currently `/development_version/xml/ECM8000_07_09_19_01.xml` and this is hard-coded in the `development_version/py/beamforming.py` file. Take this into account if you need to provide a different file.
 
