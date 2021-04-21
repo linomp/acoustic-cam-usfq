@@ -10,9 +10,9 @@
 - LabView 2017 SP1 (uncheck the VI Package Manager 20117 option; the latest version directly from their website works better)  
 - [VI Package Manager 2017 (VIPM)](https://www.vipm.io/download/)
 
-It is recommended to install these packages through VIPM:
-- [LiveHDF by UPVI ("Download Package" option works better)](https://www.vipm.io/package/lvhdf5/) ([documentation](http://www.upvi.net/main/index.php/products/lvhdf5))
-- [OpenG Libraries ("Download Package" option works better)](https://www.ni.com/gate/gb/GB_EVALTLKTOPENG/US)
+It is recommended to install these packages through VIPM. Look for the "Download Package" option and continue installation with VIPM:
+- [LiveHDF by UPVI](https://www.vipm.io/package/lvhdf5/) ([documentation](http://www.upvi.net/main/index.php/products/lvhdf5))
+- [OpenG Libraries](https://www.ni.com/gate/gb/GB_EVALTLKTOPENG/US)
 
 These ones are installed from outside VIPM:
 - [NI DAQmx](https://www.ni.com/en-us/support/downloads/drivers/download.ni-daqmx.html#348669) for microphone data acquisition
