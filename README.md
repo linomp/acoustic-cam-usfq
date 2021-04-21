@@ -3,7 +3,7 @@
 **Important**: Install all of these packages/tools **in the same order** as they appear.
 
 ### Python
-- [Anaconda3 (2019.07 build)](https://repo.anaconda.com/archive/Anaconda3-2019.07-Windows-x86_64.exe)
+- [Anaconda with Python 3 support](https://www.anaconda.com/products/individual)
 - [The acoular library](http://www.acoular.org/)
   - Note: make sure you go through their `Installation` and `Getting Started` sections to verify your installation is correct.
 
@@ -75,4 +75,42 @@ To test your environment, an example measurement is provided. This includes an i
 
       And the following plot:
 
-      <img src="./readme_img/example_plot.PNG" width="80%">
+      <img src="./readme_img/example_plot.PNG" width="60%">
+
+
+## Performing New Measurements
+
+**Tip:** read `Final Report.pdf` for information about best-performing parameters.
+
+- In the `Measurements` tab, you can use the `Preview Signals` button to check the status of the microphones:
+
+  <img src="./readme_img/preview_signals.PNG" width="60%">
+
+- Select the camera device.
+- Focus the camera to the desired object/scenario to analyze.
+- Select the data directory.
+- Input a name for the experiment (will be used both for the audio recording and the image).  
+- Input the distance in [m] from the array to the sound source.
+- Input a sampling time and a sampling frequency. 
+  - Note: Take into account that the hardware has its sampling rate limitations. Also, theoretically the sampling frequency has to be at least twice the maximum frequency in the signal you wish to analyze (see [Nyquist Theorem](http://microscopy.berkeley.edu/courses/dib/sections/02Images/sampling.html) / [Recommended Video](https://www.youtube.com/watch?v=yWqrx08UeUs)).  
+- Click record and wait.
+- After recording, the GUI should look like this:
+  
+  <img src="./readme_img/measure.PNG" width="70%"> 
+
+- Switch to the `Processing` tab. It will already be pointing to the newly created data file. There you can `Inspect` the signal or `Run   Analysis` immediately, like in the previous section.
+
+- The `Lower` and `Higher` parameters determine the beggining and start of the frequency range to be taken into account for the actual acoustic map.
+
+## Notes
+- The VI measurement feature cannot be performed without the Data Acquisition board already connected and configured.  
+
+- There might be setup and or additional driver installation required when connecting the Data Acquisition board. 
+  
+  Locate this section of the `BeamformerGUI_GivenFreqs.vi` block diagram and open the `DAQ Assistant` to configure your hardware:
+
+  <img src="./readme_img/daq.PNG" width="60%"> 
+
+- The calibration file location is currently `/development_version/xml/ECM8000_07_09_19_01.xml` and this is hard-coded in the `development_version/py/beamforming.py` file. Take this into account if you need to provide a different file.
+
+- Take note of the `Acoular Cache Path` in the `Measurement` tab. Acoular saves previous results there to optimize performance but you might need to manually clear the contents of that folder if you want to analyze new measurements with a same filename you used previously. 
