@@ -33,7 +33,10 @@ These ones are installed from outside VIPM:
 # Testing the VI
 
 ## Verify Acoular installation
-After going through the [installation described here](http://www.acoular.org/install/index.html), you should be able to open the Anaconda prompt, input these commands and get the following results:
+After going through the [installation described here](http://www.acoular.org/install/index.html), you should be able to: 
+- open the Anaconda prompt
+- type `python` to open the python interpreter
+- type the statements shown here and get the following results:
 
 ![acoular_example](./readme_img/acoular_test.PNG)
 
