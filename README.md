@@ -1,19 +1,21 @@
 # Dependencies
 
+**Important**: Install all of these packages/tools **in the same order** as they appear.
+
 ### Python
 - [Anaconda3 (2019.07 build)](https://repo.anaconda.com/archive/Anaconda3-2019.07-Windows-x86_64.exe)
 - [The acoular library](http://www.acoular.org/)
   - Note: make sure you go through their `Installation` and `Getting Started` sections to verify your installation is correct.
 
 ### LabView 
-**Install this first!**
 - LabView 2017 SP1 
   - Note: uncheck the VI Package Manager 2017 option; the latest version directly from their website works better.  
-- [VI Package Manager 2017 (VIPM)](https://www.vipm.io/download/)
+- [VI Package Manager (VIPM)](https://www.vipm.io/download/)
+  - Note: hit the button that looks like a "refresh" icon, to update the package repository so VIPM will work correctly.   
 
-It is recommended to install these packages through VIPM. Look for the "Download Package" option and continue installation with VIPM:
+It is recommended to install these packages with VIPM, in this exact order:
+- [OpenG Libraries](https://www.vipm.io/package/openg.org_lib_openg_toolkit/)   
 - [LiveHDF by UPVI](https://www.vipm.io/package/lvhdf5/) ([documentation](http://www.upvi.net/main/index.php/products/lvhdf5))
-- [OpenG Libraries](https://www.ni.com/gate/gb/GB_EVALTLKTOPENG/US)
 
 These ones are installed from outside VIPM:
 - [NI DAQmx](https://www.ni.com/en-us/support/downloads/drivers/download.ni-daqmx.html#348669) for microphone data acquisition
