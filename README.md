@@ -7,7 +7,8 @@
 
 ### LabView 
 **Install this first!**
-- LabView 2017 SP1 (uncheck the VI Package Manager 20117 option; the latest version directly from their website works better)  
+- LabView 2017 SP1 
+  - Note: uncheck the VI Package Manager 2017 option; the latest version directly from their website works better.  
 - [VI Package Manager 2017 (VIPM)](https://www.vipm.io/download/)
 
 It is recommended to install these packages through VIPM. Look for the "Download Package" option and continue installation with VIPM:
