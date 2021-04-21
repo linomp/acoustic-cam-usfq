@@ -1,11 +1,11 @@
 # Dependencies
 
-## Python
+### Python
 - [Anaconda3 (2019.07 build)](https://repo.anaconda.com/archive/Anaconda3-2019.07-Windows-x86_64.exe)
 - [The acoular library](http://www.acoular.org/)
   - Note: make sure you go through their `Installation` and `Getting Started` sections to verify your installation is correct.
 
-## LabView 
+### LabView 
 **Install this first!**
 - LabView 2017 SP1 (it should already install [VI Package Manager 2017 / VIPM](https://www.vipm.io/download/) for you)  
 
@@ -17,8 +17,10 @@ These ones are installed from outside VIPM:
 - [NI DAQmx](https://www.ni.com/en-us/support/downloads/drivers/download.ni-daqmx.html#348669) for microphone data acquisition
 - [VAS](https://www.ni.com/en-us/support/downloads/drivers/download.vision-acquisition-software.html#367318) for LabView to webcam interfacing
 
-## Recommended
+### Recommended
 - [HDFView](https://www.hdfgroup.org/downloads/hdfview/) to explore HDF5 files of your audio recordings.
+
+
 
 # Running an example
 
