@@ -26,20 +26,20 @@ These ones are installed from outside VIPM:
 - [VAS](https://www.ni.com/en-us/support/downloads/drivers/download.vision-acquisition-software.html#367318) for LabView to webcam interfacing
 
 ### Recommended
-- [HDFView](https://www.hdfgroup.org/downloads/hdfview/) to explore HDF5 files of your audio recordings.
+- [HDFView](https://www.hdfgroup.org/downloads/hdfview/) to inspect HDF5 files of your audio recordings and their metadata.
 
 
 
-# Running an example
+# Testing the VI
 
 ## Verify Acoular installation
 After going through the [installation described here](http://www.acoular.org/install/index.html), you should be able to open the Anaconda prompt, input these commands and get the following results:
 
 ![acoular_example](./readme_img/acoular_test.PNG)
 
-## Testing the acoustic cam VI
+## Run the provided example
 
-// TO-DO add instructions for VI
-
+// TO-DO add instructions & screenshots
+Switch from the Measurement tab to the Processing tab...
 - Image File: `development_version/experiments/example_1.bmp`
 - Audio File: `development_version/experiments/example_1.h5`
