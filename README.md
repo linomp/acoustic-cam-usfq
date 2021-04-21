@@ -35,7 +35,6 @@ These ones are installed from outside VIPM:
 
     Then the app can be opened by double clicking on that `hdfview.bat` file.
 
-
 # Testing the VI
 
 ## Verify Acoular installation
@@ -48,7 +47,32 @@ After going through the [installation described here](http://www.acoular.org/ins
 
 ## Run the provided example
 
-// TO-DO add instructions & screenshots
-Switch from the Measurement tab to the Processing tab...
-- Image File: `development_version/experiments/example_1.bmp`
-- Audio File: `development_version/experiments/example_1.h5`
+To test your environment, an example measurement is provided. This includes an image and a white-noise recording in an hdf5 file.
+
+- Open the project **`development_version/Beamforming_0_0_1.lvproj`**. In there open the VI called **`BeamformerGUI_GivenFreqs.vi`** and execute it.
+
+- Switch from the `Measurement` tab to the `Processing` tab.
+  
+  - The Python server should be started in the background, give it some time. When the VI is ready to perform an analysis, it looks like this:
+  
+    <img src="./readme_img/ready.PNG" width="80%"> 
+
+  - By default, the VI already searches for the microphone geometry file `16_mics_geom.xml` in the `development_version/xml` folder. If you ever need to include another microphone geometry file, that is the place to add it.
+
+  - For the `Audio Data File (HDF5)` option, make sure it points to: `development_version/experiments/example_1.h5` (should be done by default too, but please double check).
+  
+    - Inspecting it with HDFView:
+    
+      <img src="./readme_img/hdf_view.PNG" width="70%">
+    
+    - Inspecting it with the `Inspect Signal` function:
+  
+      <img src="./readme_img/inspect.PNG" width="80%">
+
+    - Click on `Run Analysis` and you should get this message:
+  
+      <img src="./readme_img/success.PNG" width="80%">
+
+      And the following plot:
+
+      <img src="./readme_img/example_plot.PNG" width="80%">
