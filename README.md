@@ -11,7 +11,7 @@
 - LabView 2017 SP1 
   - Note: uncheck the VI Package Manager 2017 option; the latest version directly from their website works better.  
 - [VI Package Manager (VIPM)](https://www.vipm.io/download/)
-  - Note: hit the button that looks like a "refresh" icon, to update the package repository so VIPM will work correctly.   
+  - Note: after installing, hit the button that looks like a "refresh" icon to update the package repository so VIPM will work correctly.   
 
 It is recommended to install these packages with VIPM, in this exact order:
 - [OpenG Libraries](https://www.vipm.io/package/openg.org_lib_openg_toolkit/)   
@@ -27,6 +27,7 @@ These ones are installed from outside VIPM:
 
 ### Recommended
 - [HDFView](https://www.hdfgroup.org/downloads/hdfview/) to inspect HDF5 files of your audio recordings and their metadata.
+  - If the program fails to launch, [try the solution mentioned here](https://portal.hdfgroup.org/display/support/HDFView+3.1.2#HDFView3.1.2-knownprobs)
 
 
 
