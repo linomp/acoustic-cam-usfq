@@ -27,8 +27,13 @@ These ones are installed from outside VIPM:
 
 ### Recommended
 - [HDFView](https://www.hdfgroup.org/downloads/hdfview/) to inspect HDF5 files of your audio recordings and their metadata.
-  - If the program fails to launch, [try the solution mentioned here](https://portal.hdfgroup.org/display/support/HDFView+3.1.2#HDFView3.1.2-knownprobs)
+  - Note: If the program fails to launch, [try the solution mentioned here](https://portal.hdfgroup.org/display/support/HDFView+3.1.2#HDFView3.1.2-knownprobs). 
+   
+    To make the HDFViewApp-3.1.2 work on Windows 10 (64 bits), they ask you to download and paste the `hdfview.bat` file here:
 
+      <img src="./readme_img/hdf_fix.PNG" width="60%">
+
+    Then the app can be opened by double clicking on that `hdfview.bat` file.
 
 
 # Testing the VI
