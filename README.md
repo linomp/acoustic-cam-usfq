@@ -17,9 +17,9 @@ It is recommended to install these packages with VIPM, in this exact order:
 - [OpenG Libraries](https://www.vipm.io/package/openg.org_lib_openg_toolkit/)   
 - [LiveHDF by UPVI](https://www.vipm.io/package/lvhdf5/) ([documentation](http://www.upvi.net/main/index.php/products/lvhdf5))
 
-At this point, your installed package listing should contain at least all these:
+  At this point, your installed package listing should contain at least all these:
 
-<img src="./readme_img/vipm_packages.PNG" width="60%">
+  <img src="./readme_img/vipm_packages.PNG" width="60%">
 
 These ones are installed from outside VIPM:
 - [NI DAQmx](https://www.ni.com/en-us/support/downloads/drivers/download.ni-daqmx.html#348669) for microphone data acquisition
