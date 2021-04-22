@@ -8,8 +8,8 @@
   - Note: make sure you go through their `Installation` and `Getting Started` sections to verify your installation is correct.
 
 ### LabView 
-- LabView 2017 SP1 
-  - Note: uncheck the VI Package Manager 2017 option; the latest version directly from their website works better.  
+- [LabView 2017 SP1](https://drive.google.com/file/d/1f0ta16s_hXl4AfWJfx2E_lHg1bpLfRXV/view?usp=sharing) 
+  - Note: uncheck the VI Package Manager 2017 option. You will be installing the latest version directly from their website, which works better.  
 - [VI Package Manager (VIPM)](https://www.vipm.io/download/)
   - Note: after installing, hit the button that looks like a "refresh" icon to update the package repository so VIPM will work correctly.   
 
