@@ -22,8 +22,8 @@ It is recommended to install these packages with VIPM, in this exact order:
   <img src="./readme_img/vipm_packages.PNG" width="60%">
 
 These ones are installed from outside VIPM:
-- [NI DAQmx](https://www.ni.com/en-us/support/downloads/drivers/download.ni-daqmx.html#348669) for microphone data acquisition
 - [VAS](https://www.ni.com/en-us/support/downloads/drivers/download.vision-acquisition-software.html#367318) for LabView to webcam interfacing
+- [NI DAQmx](https://www.ni.com/en-us/support/downloads/drivers/download.ni-daqmx.html#348669) for microphone data acquisition
 
 ### Recommended
 - [HDFView](https://www.hdfgroup.org/downloads/hdfview/) to inspect HDF5 files of your audio recordings and their metadata.
