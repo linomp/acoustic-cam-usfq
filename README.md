@@ -15,10 +15,10 @@ The result was a prototype of an acoustic camera capable of distinguishing and c
 
 ## Index
 
-1. [Installation](https://github.com/linomp/acoustic_cam_usfq/edit/master/README.md#installation)
-2. [Testing](https://github.com/linomp/acoustic_cam_usfq/edit/master/README.md#testing)
-3. [Performing new measurements](https://github.com/linomp/acoustic_cam_usfq/edit/master/README.md#performing-new-measurements)
-4. [Notes](https://github.com/linomp/acoustic_cam_usfq/edit/master/README.md#notes)
+1. [Installation](https://github.com/linomp/acoustic_cam_usfq#1-installation)
+2. [Testing](https://github.com/linomp/acoustic_cam_usfq#2-testing)
+3. [Performing new measurements](https://github.com/linomp/acoustic_cam_usfq#3-performing-new-measurements)
+4. [Notes](https://github.com/linomp/acoustic_cam_usfq#4-notes)
 
 ## 1. Installation
 
