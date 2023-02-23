@@ -1,4 +1,26 @@
-# Dependencies
+# Sound Visualization with an Acoustic Camera
+
+This is the source code repository for the project "Sound Visualization with an Acoustic Camera", my Mechanical Engineering undergraduate thesis at USFQ (Ecuador).
+
+This work explains the process of building an [acoustic camera](https://felixtrument.ca/acoustic-camera-all-you-need-know/), from the design of the microphone array to the integration of the required software layers. 
+
+A National Instruments data acquisition card and LabView were used to record the signals of an array of 16 condenser microphones simultaneously, while the open source library [Acoular](http://www.acoular.org/) was used to process the signals, applying beamforming techniques. 
+
+The result was a prototype of an acoustic camera capable of distinguishing and characterizing static sound sources in a frequency range from 2.8 kHz up to 6 kHz. 
+
+## Resources
+- [Download the full thesis here](https://repositorio.usfq.edu.ec/handle/23000/8978)
+- [Check the project poster](https://github.com/linomp/acoustic_cam_usfq/blob/master/Poster.pdf)
+
+
+## Index
+
+1. [Installation](https://github.com/linomp/acoustic_cam_usfq/edit/master/README.md#installation)
+2. [Testing](https://github.com/linomp/acoustic_cam_usfq/edit/master/README.md#testing)
+3. [Performing new measurements](https://github.com/linomp/acoustic_cam_usfq/edit/master/README.md#performing-new-measurements)
+4. [Notes](https://github.com/linomp/acoustic_cam_usfq/edit/master/README.md#notes)
+
+## 1. Installation
 
 **Important**: Install all of these packages/tools **in the same order** as they appear.
 
@@ -25,7 +47,7 @@ These ones are installed from outside VIPM:
 - [VAS](https://www.ni.com/en-us/support/downloads/drivers/download.vision-acquisition-software.html#367318) for LabView to webcam interfacing
 - [NI DAQmx](https://www.ni.com/en-us/support/downloads/drivers/download.ni-daqmx.html#348669) for microphone data acquisition
 
-### Recommended
+#### Recommended
 - [HDFView](https://www.hdfgroup.org/downloads/hdfview/) to inspect HDF5 files of your audio recordings and their metadata.
   - Note: If the program fails to launch, [try the solution mentioned here](https://portal.hdfgroup.org/display/support/HDFView+3.1.2#HDFView3.1.2-knownprobs). 
    
@@ -35,9 +57,7 @@ These ones are installed from outside VIPM:
 
     Then the app can be opened by double clicking on that `hdfview.bat` file.
 
-# Testing the VI
-
-## Verify Acoular installation
+### Verify Acoular installation
 After going through the [installation described here](http://www.acoular.org/install/index.html), you should be able to: 
 - open the Anaconda prompt
 - type `python` to open the python interpreter
@@ -45,7 +65,7 @@ After going through the [installation described here](http://www.acoular.org/ins
 
 ![acoular_example](./readme_img/acoular_test.PNG)
 
-## Run the provided example
+## 2. Testing
 
 To test your environment, an example measurement is provided. This includes an image and a white-noise recording in an hdf5 file.
 
@@ -78,9 +98,9 @@ To test your environment, an example measurement is provided. This includes an i
       <img src="./readme_img/example_plot.PNG" width="70%">
 
 
-## Performing New Measurements
+## 3. Performing New Measurements
 
-**Tip:** read `Final Report.pdf` for information about best-performing parameters.
+**Tip:** read the [Final Report](https://github.com/linomp/acoustic_cam_usfq/blob/master/Final%20Report.pdf) for information about best-performing parameters.
 
 - In the `Measurements` tab, you can use the `Preview Signals` button to check the status of the microphones:
 
@@ -102,7 +122,7 @@ To test your environment, an example measurement is provided. This includes an i
 
 - The `Lower` and `Higher` parameters determine the beggining and start of the frequency range to be taken into account for the actual acoustic map.
 
-## Notes
+## 4. Notes
 - The VI measurement feature cannot be performed without the Data Acquisition board already connected and configured.  
 
 - There might be setup and or additional driver installation required when connecting the Data Acquisition board. 
