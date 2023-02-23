@@ -22,24 +22,34 @@ The result was a prototype of an acoustic camera capable of distinguishing and c
 
 ## 1. Installation
 
-**Important**: Install all of these packages/tools **in the same order** as they appear.
-
-### Python
+### Python & Acoular
 - [Anaconda with Python 3 support](https://www.anaconda.com/products/individual)
-- [The acoular library](http://www.acoular.org/)
-  - Note: make sure you go through their `Installation` and `Getting Started` sections to verify your installation is correct.
+- [The acoular library (version 19)](https://pypi.org/project/acoular/19.2/)
+
+  Make sure you go through their `Installation` and `Getting Started` sections to verify your installation is correct.
+    
+    After going through the [installation described here](http://www.acoular.org/install/index.html), you should be able to open the Anaconda prompt, type `python` to open the python interpreter, paste the following commands:
+    
+    ```python
+    import acoular
+    acoular.demo.acoular_demo.run()
+    ```
+    and you should get this result:
+    
+  <img src="./readme_img/acoular_test.PNG" width="50%">
 
 ### LabView 
-- [LabView 2017 SP1](https://drive.google.com/file/d/1f0ta16s_hXl4AfWJfx2E_lHg1bpLfRXV/view?usp=sharing) 
+- [LabView 2017 SP1](https://www.ni.com/it-it/support/downloads/software-products/download.labview.html#306359) 
   - Note: uncheck the VI Package Manager 2017 option. You will be installing the latest version directly from their website, which works better.  
 - [VI Package Manager (VIPM)](https://www.vipm.io/download/)
   - Note: after installing, hit the button that looks like a "refresh" icon to update the package repository so VIPM will work correctly.   
 
-It is recommended to install these packages with VIPM, in this exact order:
+### LabView Packages
+It is recommended to install these packages with VIPM, **in this exact order**:
 - [OpenG Libraries](https://www.vipm.io/package/openg.org_lib_openg_toolkit/)   
 - [LiveHDF by UPVI](https://www.vipm.io/package/lvhdf5/) ([documentation](http://www.upvi.net/main/index.php/products/lvhdf5))
 
-  At this point, your installed package listing should contain at least all these:
+At this point, your installed package listing should contain at least all these:
 
   <img src="./readme_img/vipm_packages.PNG" width="60%">
 
@@ -47,7 +57,7 @@ These ones are installed from outside VIPM:
 - [VAS](https://www.ni.com/en-us/support/downloads/drivers/download.vision-acquisition-software.html#367318) for LabView to webcam interfacing
 - [NI DAQmx](https://www.ni.com/en-us/support/downloads/drivers/download.ni-daqmx.html#348669) for microphone data acquisition
 
-#### Recommended
+### Optional tools
 - [HDFView](https://www.hdfgroup.org/downloads/hdfview/) to inspect HDF5 files of your audio recordings and their metadata.
   - Note: If the program fails to launch, [try the solution mentioned here](https://portal.hdfgroup.org/display/support/HDFView+3.1.2#HDFView3.1.2-knownprobs). 
    
@@ -56,14 +66,6 @@ These ones are installed from outside VIPM:
       <img src="./readme_img/hdf_fix.PNG" width="60%">
 
     Then the app can be opened by double clicking on that `hdfview.bat` file.
-
-### Verify Acoular installation
-After going through the [installation described here](http://www.acoular.org/install/index.html), you should be able to: 
-- open the Anaconda prompt
-- type `python` to open the python interpreter
-- type the statements shown here and get the following results:
-
-![acoular_example](./readme_img/acoular_test.PNG)
 
 ## 2. Testing
 
