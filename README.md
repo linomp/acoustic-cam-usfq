@@ -36,7 +36,7 @@ The result was a prototype of an acoustic camera capable of distinguishing and c
     ```
     and you should get this result:
     
-  <img src="./readme_img/acoular_test.PNG" width="50%">
+  <img src="./readme_img/acoular_test.PNG" width="70%">
 
 ### LabView 
 - [LabView 2017 SP1](https://www.ni.com/it-it/support/downloads/software-products/download.labview.html#306359) 
