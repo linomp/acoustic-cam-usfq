@@ -2,7 +2,7 @@
 
 This is the source code repository for the project "Sound Visualization with an Acoustic Camera", my Mechanical Engineering undergraduate thesis at USFQ (Ecuador).
 
-This work explains the process of building an [acoustic camera](https://felixtrument.ca/acoustic-camera-all-you-need-know/), from the design of the microphone array to the integration of the required software layers. 
+The thesis explains the process of building an [acoustic camera](https://felixtrument.ca/acoustic-camera-all-you-need-know/), from the design of the microphone array to the integration of the required software layers. 
 
 A National Instruments data acquisition card and LabView were used to record the signals of an array of 16 condenser microphones simultaneously, while the open source library [Acoular](http://www.acoular.org/) was used to process the signals, applying beamforming techniques. 
 
